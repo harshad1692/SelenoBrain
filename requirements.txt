@@ -1,0 +1,4 @@
+selenium
+transformers
+torch
+chromedriver-autoinstaller
