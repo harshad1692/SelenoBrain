@@ -65,9 +65,3 @@ Contributing
 License
 - This repository does not include a license file. Add one if you plan to share this publicly.
 
----
-
-If you'd like, I can also:
-- Add an example scenario and a sample generated test in `generated_tests/`.
-- Add CI/test runners or a `Makefile` to simplify common tasks.
-
