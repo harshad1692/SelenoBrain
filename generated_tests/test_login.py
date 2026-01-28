@@ -11,7 +11,7 @@ def test_login():
     try:
         # Setup the Chrome WebDriver
         driver = webdriver.Chrome()
-        driver.get("https://staging-yoga.tejlabs.com/")
+        driver.get("https://staging-xyz.com/")
 
         # Wait for the login elements and login
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "Username")))
@@ -19,8 +19,8 @@ def test_login():
         password_element = driver.find_element(By.ID, "Password")
         login_button = driver.find_element(By.ID, "Login")
 
-        username_element.send_keys("brhowner")
-        password_element.send_keys("123@Brhowner")
+        username_element.send_keys("owner")
+        password_element.send_keys("123@owner")
         login_button.click()
 
         # Wait for homepage to load
@@ -35,6 +35,3 @@ def test_login():
 
 # Run the test
 test_login()
-
-
-//*[@id="root"]/div[1]/div[1]/div/div[2]/div/div/input
